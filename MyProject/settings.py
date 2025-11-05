@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000','127.0.0.1','http://192.168.30.227:8000/', '192.168.30.227:8000', '192.168.30.227', "uhttps://updated-backend-jzeu.onrender.com", "updated-backend-jzeu.onrender.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://updated-backend-jzeu.onrender.com", "updated-backend-jzeu.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://updated-backend-jzeu.onrender.com",]
 # Application definition
 
 INSTALLED_APPS = [
